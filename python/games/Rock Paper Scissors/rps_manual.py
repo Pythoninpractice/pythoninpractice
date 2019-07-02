@@ -1,12 +1,9 @@
 # Rock Paper Scissors Game! -_-
 
 # declaring the player variables and setting value
-p1 = input("(enter Player 1's choice): ")
-p2 = input("(enter Player 2's choice): ")
-
 # changing input to lowercase so "Rock" and "RoCk" becomes "rock"
-player1 = p1.lower()
-player2 = p2.lower()
+player1 = input("(enter Player 1's choice): ").lower()
+player2 = input("(enter Player 2's choice): ").lower()
 
 # printing the "game move"
 print("...rock...")

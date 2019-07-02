@@ -1,18 +1,18 @@
 # Rock Paper Scissors Game! -_-
-import random as r
+from random import randint
 
 # declaring the player variables and setting value
-playerchoice = input("Enter Player's choice: ")
+# changing input to lowercase so "Rock" and "RoCk" becomes "rock"
+player = input("Enter Player's choice: ").lower()
 # using random.randint() module to generate an int of 0, 1 or 2 for "AI"-player2 choice
-rnd_num = r.randint(0, 2)
+rnd_num = randint(0, 2)
 if rnd_num == 0:
     computer = "rock"
 elif rnd_num == 1:
     computer = "paper"
 else:
     computer = "scissors"
-# changing input to lowercase so "Rock" and "RoCk" becomes "rock"
-player = playerchoice.lower()
+
 # printing the "game move"
 print("...rock...")
 print("...paper...")
