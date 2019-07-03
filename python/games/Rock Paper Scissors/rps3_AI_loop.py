@@ -21,9 +21,8 @@ while True:
     else:
         computer = "scissors"
 
-    # conditional logic to check and print who wins
+    # conditional logic to check for valid entry and print who wins
     if (player and player in ("rock, paper, scissors")) and (computer and computer in ("rock, paper, scissors")):
-        # printing the actual score
 
         # printing the "game move"
         print("...rock...")
