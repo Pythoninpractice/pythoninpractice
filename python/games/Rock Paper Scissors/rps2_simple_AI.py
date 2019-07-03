@@ -13,13 +13,13 @@ elif rnd_num == 1:
 else:
     computer = "scissors"
 
-# printing the "game move"
-print("...rock...")
-print("...paper...")
-print("...scissors...\n")
-print(f"Computer chose {computer}!")
 # conditional logic to check and print who wins
 if (player and player in ("rock, paper, scissors")) and (computer and computer in ("rock, paper, scissors")):
+    # printing the "game move"
+    print("...rock...")
+    print("...paper...")
+    print("...scissors...\n")
+    print(f"Computer chose {computer}!")
     if player == computer:
         print(f"Oh {player} vs. {computer}, its a draw!")
     elif player == "rock" and computer == "scissors":
