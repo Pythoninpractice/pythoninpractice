@@ -1,2 +1,1 @@
-# maxmaxdev.github.io
 Coffeeshop
